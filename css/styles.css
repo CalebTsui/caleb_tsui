@@ -113,7 +113,7 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    padding: 3rem 12rem;
+    padding: 3rem 8rem 0rem;
     text-decoration: none;
     background-color: white;
 
@@ -128,7 +128,7 @@ header {
     gap: 2rem;
     padding: 0.5rem 1rem;
     border-radius: 100px;
-    background-color: #F6F6F6;
+    
 }
 
 .nav-toggle {
@@ -155,8 +155,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #1E8541;
-    color: white;
+    color: #15572C;
 
 }
 
@@ -204,7 +203,7 @@ nav a:focus,
 
 .intro {
     display: flex;
-    padding: 3.5rem 12rem;
+    padding: 3.5rem 8rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -223,11 +222,11 @@ nav a:focus,
 .intro-left h2 {
     font-family: 'Saans', sans-serif;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2rem;
 
     color: #363636;
     line-height: 1.3;
-    width: 100%;
+    width: 110%;
     margin: 0 0 1rem;
 }
 
@@ -235,18 +234,18 @@ nav a:focus,
 .highlight {
     font-family: 'Saans', sans-serif;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #1E8541;
 }
 
 /* Small note text */
 .note {
     font-family: 'Saans', sans-serif;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
     line-height: 1.4;
-    color: #ABABAB;
-    width: 80%;
+    color: #A2A2A2;
+    width: 87%;
     margin-top: 2rem;
 }
 
@@ -257,7 +256,7 @@ nav a:focus,
 
 /* Container */
 .selected-work {
-    padding: 3.5rem 10rem;
+    padding: 0rem 6rem;
     padding-bottom: 7rem;
 }
 
@@ -399,7 +398,7 @@ nav a:focus,
 /* Sandbox */
 /* ------- */
 .sandbox-intro {
-    padding: 4rem 12rem;
+    padding: 4rem 8rem;
 }
 
 .sandbox-intro h3 {
@@ -414,11 +413,11 @@ nav a:focus,
 .sandbox-intro h2 {
     font-family: 'Saans', sans-serif;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-top: 1rem;
     color: #363636;
     line-height: 1.3;
-    width: 55%;
+    width: 60%;
 
 }
 
@@ -436,7 +435,7 @@ nav a:focus,
 }
 
 .doodle-work {
-    padding: 0rem 12rem;
+    padding: 0rem 8rem;
     padding-bottom: 7rem;
 }
 
@@ -546,7 +545,7 @@ nav a:focus,
 
 .case-nav a {
     font-family: 'Saans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #363636;
     text-decoration: none;
@@ -559,7 +558,7 @@ nav a:focus,
 }
 
 .case-content {
-    max-width: 72vw;
+    max-width: 63vw;
     margin-inline: auto;
 }
 
@@ -572,15 +571,17 @@ nav a:focus,
 .hero-img {
     width: 100%;
     border-radius: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 .case-hero h1 {
     font-family: 'Saans', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
     color: #363636;
     line-height: 1.3;
-    margin: 1.2rem 0rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0rem;
 }
 
 .case-hero .hero-disclaimer {
@@ -644,16 +645,16 @@ nav a:focus,
 }
 
 .background {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 
 .background h1 {
     font-family: 'Saans', sans-serif;
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: #363636;
-    line-height: 1.3;
-    margin-top: 1rem;
+    line-height: 1.5;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -668,10 +669,11 @@ nav a:focus,
 .background h2 {
     font-family: 'Saans', sans-serif;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #363636;
-    line-height: 1.3;
-    margin-top: 2.5rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -690,9 +692,9 @@ nav a:focus,
 .background p {
     font-family: 'Saans', sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #363636;
-    line-height: 1.3;
+    line-height: 1.6;
      
 }
 
@@ -708,7 +710,8 @@ nav a:focus,
 .background .highlight {
     font-family: 'Saans', sans-serif;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: #1E8541;
 }
 
@@ -728,8 +731,8 @@ nav a:focus,
 
 .background .tags span {
     font-family: 'Saans', sans-serif;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 400;
+    font-size: 1rem;
     background-color: #1E8541;
     color: #FFFFFF;
     padding: 0.5rem 1.2rem;
@@ -778,7 +781,7 @@ nav a:focus,
     font-weight: 500;
     font-size: 1.2rem;
     color: #229FE2;
-    line-height: 1.3;
+    line-height: 1.5;
     margin-top: 0rem;
     margin-bottom: 0.5rem;
 }
@@ -788,7 +791,7 @@ nav a:focus,
     font-weight: 400;
     font-size: 1.2rem;
     color: #363636;
-    line-height: 1.3;
+    line-height: 1.5;
     margin: 0rem;
 
 }
@@ -933,12 +936,12 @@ nav a:focus,
 
 
 /* About Page */
-.about-page {
+.about-page, .about-header {
     margin-bottom: 8rem;
 }
 
 .about {
-    padding: 2rem 12rem;
+    padding: 3rem 8rem;
 }
 
 .about-icon {
@@ -960,6 +963,17 @@ nav a:focus,
 
     color: #363636;
     margin: 0 0 1rem 0;
+
+}
+
+.about-header p {
+    font-family: 'Saans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #363636;
+    width: 80%;
+    line-height: 1.3;
+    margin-top: 2rem;
 
 }
 
@@ -992,7 +1006,7 @@ nav a:focus,
 }
 
 .about .note {
-    color: #ABABAB;
+    color: #A2A2A2;
 }
 
 .about a {
@@ -1058,7 +1072,7 @@ nav a:focus,
 
 /* Footer */
 .site-footer {
-    padding: 4rem 12rem 2.5rem;
+    padding: 4rem 8rem;
     border-top: 2px solid #F1F1F1;
     ;
 
@@ -1410,6 +1424,7 @@ nav a:focus,
         padding: 2rem 4rem;
     }
 
+
     .hero-img {
         width: 100%;
         height: 10rem;
@@ -1419,7 +1434,7 @@ nav a:focus,
     }
 
     .case-hero h1 {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
 
     }
 
@@ -1430,10 +1445,6 @@ nav a:focus,
 
     .meta-grid p {
         font-size: 1.2rem;
-    }
-
-    .case-content {
-        font-size: 1rem;
     }
 
     .case-gallery {
