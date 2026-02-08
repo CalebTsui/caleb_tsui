@@ -150,12 +150,12 @@ nav a {
     padding: 0.4rem 1rem;
     border-radius: 9999px;
     text-decoration: none;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: color 0.2s ease;
 
 }
 
 nav a:hover {
-    color: #15572C;
+    color: #53B876;
 
 }
 
